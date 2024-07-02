@@ -1,0 +1,106 @@
+*
+{
+  box-sizing: border-box;
+}
+body
+{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+.background1
+{
+  padding: 0;
+  margin: 0;
+  background-image:url("images/login2.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.container
+{
+  border: 1px solid;
+  border-radius: 30px;
+  height: 450px;
+  width: 350px;
+  background-color: black;
+  opacity: 0.5;
+  float: right;
+  margin: 150px 150px;
+}
+.usertag
+{
+  padding-top: 150px;
+  padding-left: 30px;
+  color: white;
+}
+#email
+{
+  display: inline-block;
+  outline: none;
+  height: 30px;
+  color: white;
+  background-color: black;
+  opacity: 0.5;
+  border: none;
+  border-bottom: white solid 2px;
+  padding: 5px;
+  margin-left: 3px;
+  font-size: large;
+}
+.email_label label
+{
+  font-size: large;
+  font-weight: bold;
+  font-style: oblique;
+}
+.email_label
+{
+  display: inline-block;
+}
+.passtag
+{
+  padding: 20px 21px;
+}
+.password_label
+{
+  display: inline-block;
+  color: white;
+}
+#password
+{
+  display: inline-block;
+  outline: none;
+  height: 30px;
+  color: white;
+  background-color: black;
+  opacity: 0.5;
+  border: none;
+  border-bottom: white solid 2px;
+  padding: 5px;
+}
+.password_label label
+{
+  font-size: large;
+  font-weight: bold;
+  padding: 10px;
+  font-style: oblique;
+}
+.button
+{
+  outline: none;
+  border: none;
+  padding: 20px;
+  margin: 0 110px ;
+}
+.button button
+{
+  height: 30px;
+  width: 70px;
+}
+
+
+
